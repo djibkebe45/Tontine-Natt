@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Tontine Natt",
+    "slug": "tontine-natt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tontinenatt",
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "com.djibkebe45.tontinenatt"
+    }
+  }
+}
