@@ -19,3 +19,48 @@
     "@babel/core": "^7.20.0"
   }
 }
+
+{
+  "expo": {
+    "name": "Tontine Natt",
+    "slug": "tontine-natt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tontinenatt",
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "com.djibkebe45.tontinenatt"
+    }
+  }
+}
+import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.titre}>Tontine Natt</Text>
+      <Text style={styles.sous}>Bienvenue !</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#6C47FF',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  titre: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  sous: {
+    fontSize: 16,
+    color: '#fff',
+    marginTop: 8,
+  },
+});
