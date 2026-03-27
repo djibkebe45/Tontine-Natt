@@ -10,7 +10,7 @@ export default {
     },
     extra: {
       eas: {
-        projectId: "ton-project-id"
+        projectId: "2e305575-6696-4e33-8098-4fc809b39cee"
       }
     }
   }
